@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ado.net homework2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a619e20789016d0ab034a8c58209737df95e1a26")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ado.net homework2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ado.net homework2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

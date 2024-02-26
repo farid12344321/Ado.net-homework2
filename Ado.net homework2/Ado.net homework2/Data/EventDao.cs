@@ -128,6 +128,26 @@ namespace Ado.net_homework2.Data
             }
             return events;
         }
+
+        public int AddSpeakerAndEvent(int speakerId, int eventId)
+        {
+            string connectionString = ConnectionString.LOCAL;
+            string query = "INSERT INTO EventSpeakers (SpeakrsId,EventsId) VALUES ( @SpeakerID,@EventID);";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand insertEventSpeakerCmd = new SqlCommand(query,connection))
+                {
+                    insertEventSpeakerCmd.Parameters.AddWithValue("@SpeakerID", speakerId);
+                    insertEventSpeakerCmd.Parameters.AddWithValue("@EventID", eventId);
+                    return insertEventSpeakerCmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+
+
         public int UpdateEvent(Events events)
         {
             string connectionStr = ConnectionString.LOCAL;

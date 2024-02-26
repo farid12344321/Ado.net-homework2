@@ -20,3 +20,4 @@ C:\Users\Farid\Desktop\homewotk\ado.net\Homework2\Ado.net homework2\Ado.net home
 C:\Users\Farid\Desktop\homewotk\ado.net\Homework2\Ado.net homework2\Ado.net homework2\obj\Debug\net8.0\Ado.net homework2.pdb
 C:\Users\Farid\Desktop\homewotk\ado.net\Homework2\Ado.net homework2\Ado.net homework2\obj\Debug\net8.0\Ado.net homework2.genruntimeconfig.cache
 C:\Users\Farid\Desktop\homewotk\ado.net\Homework2\Ado.net homework2\Ado.net homework2\obj\Debug\net8.0\ref\Ado.net homework2.dll
+C:\Users\Farid\Desktop\homewotk\ado.net\Homework2\Ado.net homework2\Ado.net homework2\obj\Debug\net8.0\Ado.net homework2.sourcelink.json
